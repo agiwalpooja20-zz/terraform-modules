@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 module "ogintegration.us" {
-    source = "git::https://github.com/agiwalpooja20/terraform-modules.git?ref=v1.0.0"
+    source = "git::https://github.com/agiwalpooja20/terraform-modules.git?ref=v1.0.1"
 
     providers {
         aws = "aws.us-west-2"
