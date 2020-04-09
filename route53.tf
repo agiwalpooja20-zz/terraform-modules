@@ -1,7 +1,4 @@
 # Global settings
-module "aws_global" {
-  source = "../../global/"
-}
 
 # The zone to be used for the kubernetes cluster
 resource "aws_route53_zone" "domain" {
